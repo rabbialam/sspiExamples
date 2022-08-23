@@ -1,0 +1,36 @@
+﻿  ConsoleApplication5.cpp
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(27,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(135,13): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(135,13): message : consider using '%ls' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(135,13): message : consider using '%lls' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(135,13): message : consider using '%Ls' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(135,13): message : consider using '%ws' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(199,20): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'SEC_WCHAR *'
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(199,20): message : consider using '%ls' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(199,20): message : consider using '%lls' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(199,20): message : consider using '%Ls' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(199,20): message : consider using '%ws' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(239,20): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'LPWSTR'
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(239,20): message : consider using '%ls' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(239,20): message : consider using '%lls' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(239,20): message : consider using '%Ls' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(239,20): message : consider using '%ws' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(258,16): warning C4477: 'printf' : format string '%lx' requires an argument of type 'unsigned long', but variadic argument 1 has type 'ULONG_PTR'
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(258,16): message : consider using '%llx' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(258,16): message : consider using '%Ix' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(258,16): message : consider using '%I64x' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(258,16): warning C4477: 'printf' : format string '%lx' requires an argument of type 'unsigned long', but variadic argument 2 has type 'ULONG_PTR'
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(258,16): message : consider using '%llx' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(258,16): message : consider using '%Ix' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(258,16): message : consider using '%I64x' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(260,16): warning C4477: 'printf' : format string '%lx' requires an argument of type 'unsigned long', but variadic argument 1 has type 'ULONG_PTR'
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(260,16): message : consider using '%llx' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(260,16): message : consider using '%Ix' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(260,16): message : consider using '%I64x' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(260,16): warning C4477: 'printf' : format string '%lx' requires an argument of type 'unsigned long', but variadic argument 2 has type 'ULONG_PTR'
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(260,16): message : consider using '%llx' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(260,16): message : consider using '%Ix' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(260,16): message : consider using '%I64x' in the format string
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(263,37): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\malam5\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(275,13): warning C4101: 'dummy': unreferenced local variable
+  ConsoleApplication5.vcxproj -> C:\Users\malam5\source\repos\ConsoleApplication5\x64\Debug\SspiServer.exe

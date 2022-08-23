@@ -1,0 +1,12 @@
+﻿  SspiClient.cpp
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(45,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(241,17): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(241,17): message : this argument is used as a buffer size
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(243,33): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(133,11): warning C4101: 'pTrailer_test': unreferenced local variable
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(132,11): warning C4101: 'pMessage_test': unreferenced local variable
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(64,9): warning C4101: 'dummy': unreferenced local variable
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(137,12): warning C4101: 'pToken': unreferenced local variable
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(259,13): warning C4101: 'dummy': unreferenced local variable
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(460,9): warning C4101: 'dummy': unreferenced local variable
+  SspiClient.vcxproj -> C:\Users\malam5\source\repos\SspiClient\x64\Debug\SspiClient.exe

@@ -1,0 +1,24 @@
+﻿  SspiClient.cpp
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(46,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(100,16): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'SEC_WCHAR *'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(100,16): message : consider using '%ls' in the format string
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(100,16): message : consider using '%lls' in the format string
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(100,16): message : consider using '%Ls' in the format string
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(100,16): message : consider using '%ws' in the format string
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(118,12): warning C4477: 'printf' : format string '%llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'ULONG_PTR'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(118,12): message : consider using '%lx' in the format string
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(118,12): warning C4477: 'printf' : format string '%llx' requires an argument of type 'unsigned __int64', but variadic argument 2 has type 'ULONG_PTR'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(118,12): message : consider using '%lx' in the format string
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(121,12): warning C4477: 'printf' : format string '%llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'ULONG_PTR'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(121,12): message : consider using '%lx' in the format string
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(121,12): warning C4477: 'printf' : format string '%llx' requires an argument of type 'unsigned __int64', but variadic argument 2 has type 'ULONG_PTR'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(121,12): message : consider using '%lx' in the format string
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(384,14): error C2664: 'SECURITY_STATUS AcquireCredentialsHandleW(LPWSTR,LPWSTR,unsigned long,void *,void *,SEC_GET_KEY_FN,void *,PCredHandle,PTimeStamp)': cannot convert argument 1 from 'LPSTR' to 'LPWSTR'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(385,13): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\sspi.h(1213,1): message : see declaration of 'AcquireCredentialsHandleW'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(426,14): error C2664: 'SECURITY_STATUS InitializeSecurityContextW(PCredHandle,PCtxtHandle,SEC_WCHAR *,unsigned long,unsigned long,unsigned long,PSecBufferDesc,unsigned long,PCtxtHandle,PSecBufferDesc,unsigned long *,PTimeStamp)': cannot convert argument 3 from 'SEC_CHAR *' to 'SEC_WCHAR *'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(429,25): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\sspi.h(1613,1): message : see declaration of 'InitializeSecurityContextW'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(442,14): error C2664: 'SECURITY_STATUS InitializeSecurityContextW(PCredHandle,PCtxtHandle,SEC_WCHAR *,unsigned long,unsigned long,unsigned long,PSecBufferDesc,unsigned long,PCtxtHandle,PSecBufferDesc,unsigned long *,PTimeStamp)': cannot convert argument 3 from 'SEC_CHAR *' to 'SEC_WCHAR *'
+C:\Users\malam5\source\repos\SspiClient\SspiClient.cpp(445,25): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\sspi.h(1613,1): message : see declaration of 'InitializeSecurityContextW'
